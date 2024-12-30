@@ -1,0 +1,44 @@
+# Root of the configuration file
+root = true
+
+# C# files
+[*.cs]
+# C# code style settings
+dotnet_style_predefined_type_for_locals_parameters = true:off
+dotnet_style_qualification_for_field = true:off
+dotnet_style_qualification_for_property = true:off
+
+# Indentation
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+# End of line and newline settings
+end_of_line = lf
+insert_final_newline = true
+
+# Charset
+charset = utf-8
+
+# Formatting rules
+[*.cs]
+# Use spaces, not tabs
+indent_style = space
+# Set the number of spaces to 4 for indentation
+indent_size = 4
+tab_width = 4
+# Ensure there is a newline at the end of the file
+insert_final_newline = true
+# Trim trailing whitespace on save
+trim_trailing_whitespace = true
+
+# Code style: enforce consistent naming conventions
+dotnet_naming_rule.camel_case_fields_and_properties_with_underscore = true
+dotnet_naming_rule.properties_should_be_pascal_case = true
+dotnet_naming_rule.local_variables_should_be_camel_case = true
+dotnet_naming_rule.constants_should_be_upper_case = true
+
+# C# code style settings for spacing
+csharp_space_after_cast = true
+csharp_space_between_method_declaration_parameter_list_and_body = true
+csharp_space_between_method_call_parameter_list_and_parenthesis = true
